@@ -1,0 +1,29 @@
+$cubic: cubic-bezier(0.85, 0, 0.15, 1);
+$trans-fast: .15s $cubic;
+$trans: .2s $cubic;
+$trans-semi-slow-duration: 300ms;
+$trans-semi-slow: $trans-semi-slow-duration $cubic;
+$trans-slow: .4s $cubic;
+
+$smallDesktopMaxWidth: 1700px;
+$laptopMaxWidth: 1369px;
+$laptopMinWidth: 1024px;
+//$laptopMaxWidth: 1280px;
+$tabletMaxWidth: 1023px;
+$tabletMinWidth: 768px;
+$mobileMaxWidth: 767px;
+$mobileMediumMaxWidth: 480px; // samsung galaxy note 5 and One plus 3,  iPhone 12/13 Pro Max - 428px, GPixel - 411
+$mobileSmallMaxWidth: 374px;
+
+$media-desktop: '(min-width: #{$tabletMaxWidth + 1})';
+$media-laptop: '(max-width: #{$laptopMaxWidth})';
+$media-laptop-only: '(max-width: #{$laptopMaxWidth}) and (min-width: #{$tabletMaxWidth + 1})';
+$media-tablet-desktop: '(min-width: #{$mobileMaxWidth + 1})';
+$media-tablet-laptop: '(max-width: #{$laptopMaxWidth}) and (min-width: #{$mobileMaxWidth + 1})';
+$media-tablet: '(max-width: #{$tabletMaxWidth})';
+$media-tablet-only: '(max-width: #{$tabletMaxWidth}) and (min-width: #{$tabletMinWidth})';
+$media-mobile: '(max-width: #{$mobileMaxWidth})';
+$media-mobile-medium: '(max-width: #{$mobileMediumMaxWidth})';
+$media-mobile-small: '(max-width: #{$mobileSmallMaxWidth})';
+
+$desktopContainerMaxWidth: 1360px;

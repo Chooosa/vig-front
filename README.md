@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## NPM minimum version ^8.3 (overrides in package.json works since this version)
+
+(Если нет возможности поставить эту версию, делать установку с форс флагом: npm i --force)
+
+### !!!!!
+### При добавлении новых файлов в public/locale/* необходимо добавлять их в массив ns в next-i18next.config.js
+### !!!!!
+
 ## Getting Started
 
 First, run the development server:

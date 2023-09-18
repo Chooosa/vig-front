@@ -1,0 +1,90 @@
+@use "variables" as *;
+@use "colors" as *;
+
+@mixin ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin desktop {
+  @media #{$media-desktop} {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media #{$media-laptop} {
+    @content;
+  }
+}
+
+@mixin laptop-only {
+  @media #{$media-laptop-only} {
+    @content;
+  }
+}
+
+@mixin tablet-desktop {
+  @media #{$media-tablet-desktop} {
+    @content;
+  }
+}
+
+@mixin tablet-laptop {
+  @media #{$media-tablet-laptop} {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media #{$media-tablet} {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media #{$media-tablet-only} {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media #{$media-mobile} {
+    @content;
+  }
+}
+
+@mixin mobile-medium {
+  @media #{$media-mobile-medium} {
+    @content;
+  }
+}
+
+@mixin mobile-small {
+  @media #{$media-mobile-small} {
+    @content;
+  }
+}
+
+@mixin button-reset {
+  color: $black;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  cursor: pointer;
+}
+
+@mixin noselect() {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
