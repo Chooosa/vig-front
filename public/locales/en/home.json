@@ -1,3 +1,78 @@
 {
-  "test": "home"
+  "meta": {
+    "title": "VIG | Вентиляция и кондиционирование",
+    "desc": "Проектирование, производство, монтаж, накладка и обслуживание инженерных систем",
+    "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
+  },
+  "typing": {
+    "title": "Мы занимаемся:",
+    "values": [
+      {
+        "text": "Проектированием",
+        "delay": 2000
+      },
+      {
+        "text": "Поставкой оборудования",
+        "delay": 2000
+      },
+      {
+        "text": "Строительным монтажом",
+        "delay": 2000
+      },
+      {
+        "text": "Сервисным обсулживанием",
+        "delay": 2000
+      }
+    ]
+  },
+  "goals": {
+    "title": "Мы сможем вам помочь если:",
+    "list": [
+      "У вас идет строительство и вам необходима вентиляция здания",
+      "Вам необходимо спроектировать систему вентиляций",
+      "У вас уже есть готовое здание и вам необходимо обслужит или внедрить вентиляционное оборудование",
+      "Вы нуждаетесь в поставке оборудования"
+    ],
+    "conclusion": "Оставьте заявку - и мы сможем решить вашу проблему!"
+  },
+  "numbers": [
+    {
+      "number": 15,
+      "label": "лет работы"
+    },
+    {
+      "number": 20,
+      "label": "завершенных<br />объектов"
+    },
+    {
+      "number": 30,
+      "label": "партнеров"
+    },
+    {
+      "number": 90,
+      "label": "квалифицированных<br />сотрудников"
+    }
+  ],
+  "services": [
+    {
+      "id": "engineering",
+      "title": "Проектирование",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "supply",
+      "title": "Поставка<br />оборудования",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "installation",
+      "title": "Монтаж<br />строительных конструкций",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "service",
+      "title": "Сервисное<br />обслуживание",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
 }

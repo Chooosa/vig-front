@@ -1,3 +1,30 @@
 {
-  "test": "тест"
+  "navigation": "Навигация",
+  "our-services": "Наши услуги",
+  "home": "Главная",
+  "address": "123298, Москва, ул. Берзарина, 8",
+  "details": "Подробнее",
+  "leave-request": "Оставить заявку",
+  "close": "Закрыть",
+  "nav": {
+    "about": "О компании",
+    "projects": "Проекты",
+    "services": "Услуги",
+    "vacancies": "Вакансии",
+    "contacts": "Контакты"
+  },
+  "services": {
+    "engineering": "Проектирование",
+    "supply": "Поставка оборудования",
+    "installation": "Монтаж строительных конструкций",
+    "service": "Сервисное обслуживание"
+  },
+  "request-modal": {
+    "title": "Оставить заявку",
+    "success-title": "Спасибо за заявку",
+    "your-name": "Ваше имя:",
+    "phone-number": "Номер телефона:",
+    "message": "Сообщение",
+    "success-description": "Ваше обращение принято в работу"
+  }
 }

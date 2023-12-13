@@ -1,3 +1,50 @@
+@use "/node_modules/slick-carousel/slick/slick";
+@use "/node_modules/slick-carousel/slick/slick-theme";
 @use 'library/index' as *;
 @use "reset";
+@use "fonts";
 @use "pages/home";
+@use "pages/about";
+@use "pages/contacts";
+@use "pages/common";
+@use "components/common/header";
+@use "components/common/footer";
+@use "components/common/ui";
+
+:root {
+  --primary-color: $home-secondary;
+  --secondary-color: darken($home-secondary, 10%);
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body, button, html, input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: $font-family-montserrat;
+  font-kerning: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6875;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $black;
+  background-color: $white; //$primary;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.collapsible-element {
+  overflow: hidden;
+  transition: height $trans;
+}
