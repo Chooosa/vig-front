@@ -75,10 +75,10 @@ function Root({ Component, pageProps }) {
         <Header
           ref={headerRef}
           pageId={pageId}
-          activeSection={activeSection}
-          sections={sections}
-          mobileNavOpened={mobileNavOpened}
-          setMobileNavOpened={setMobileNavOpened}
+          // activeSection={activeSection}
+          // sections={sections}
+          // mobileNavOpened={mobileNavOpened}
+          // setMobileNavOpened={setMobileNavOpened}
         />
       )}
 

@@ -1,12 +1,21 @@
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Page from '../components/common/Page';
+import SectionHomeNumbers from '@/components/home/SectionHomeNumbers';
+import SectionHomeGoals from '@/components/home/SectionHomeGoals';
+import SectionHomeProjects from '@/components/home/SectionHomeProjects';
+import SectionHomeServices from '@/components/home/SectionHomeServices';
+import SectionHomeTyping from '@/components/home/SectionHomeTyping';
 
 function Home() {
 
   return (
     <Page id="home">
-      home!!!
+      <SectionHomeTyping />
+      <SectionHomeGoals />
+      <SectionHomeProjects />
+      <SectionHomeNumbers />
+      <SectionHomeServices />
     </Page>
   );
 }

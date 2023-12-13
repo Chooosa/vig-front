@@ -4,13 +4,13 @@ import { appWithTranslation } from 'next-i18next';
 import '../styles/app.scss';
 // import Head from '../components/common/Head';
 import Root from '../components/common/Root';
-// import { useHMR } from '../hooks';
+import { useHMR } from '../hooks';
 import config from '../../next-i18next.config';
 
 function MyApp({ Component, pageProps }) {
   const { asPath } = useRouter();
 
-  // useHMR();
+  useHMR();
 
   useEffect(() => {
     /* eslint-disable no-console */
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {/*<Head />*/}
+      {/*TODO <Head />*/}
       <Root Component={Component} pageProps={pageProps} />
     </>
   );
