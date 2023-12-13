@@ -1,0 +1,11 @@
+@use '../library/index' as *;
+
+.section {
+  &.section-about {
+    padding: 20px;
+
+    .about-description {
+      margin-bottom: 30px;
+    }
+  }
+}

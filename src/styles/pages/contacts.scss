@@ -1,0 +1,61 @@
+@use '../library/index' as *;
+
+.section.section-contacts {
+  padding: 20px;
+
+  .title {
+    margin-bottom: 40px;
+  }
+
+  .contacts-container {
+    width: 100%;
+    display: flex;
+
+    .contacts-content {
+      flex-basis: 35%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .contacts-item {
+        margin-bottom: 10px;
+
+        .contacts-link {
+          margin-left: 5px;
+          color: $primary;
+          font-weight: 600;
+          transition: font-weight $trans-fast;
+
+          &:hover {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .map-wrap {
+      flex-basis: 65%;
+
+      .map {
+        width: 100%;
+        height: 250px;
+        border-radius: 40px;
+        overflow: hidden;
+
+        [class$="-map"] {
+          border-radius: 40px;
+          overflow: hidden;
+        }
+
+        [class$="ground-pane"] {
+          filter: gray;
+          -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+          -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+        }
+        [class$="copyright"] {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
