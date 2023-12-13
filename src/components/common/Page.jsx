@@ -1,12 +1,12 @@
 import React, { useMemo } from 'react';
 import NextHead from 'next/head';
 import { useTranslation } from 'next-i18next';
+import PropTypes from 'prop-types';
 import { usePageClass } from '../../hooks';
 import { PageContext } from '../../utils/contexts/pageContext';
 
 const Page = ({ id, children }) => {
   const transformedId = useMemo(() => id.split('/').join('-'), [id]);
-  console.log(transformedId)
   usePageClass(`page-${transformedId}`);
   const { t } = useTranslation(transformedId);
   const pageContextValue = useMemo(() => ({ pageId: id }), [id]);
@@ -25,10 +25,17 @@ const Page = ({ id, children }) => {
       </NextHead>
 
       <PageContext.Provider value={pageContextValue}>
-        {children}
+        <div className="page-content">
+          {children}
+        </div>
       </PageContext.Provider>
     </>
   );
 }
+
+Page.propTypes = {
+  id: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
 
 export default Page;

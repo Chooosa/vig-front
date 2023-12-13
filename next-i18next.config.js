@@ -8,7 +8,14 @@ module.exports = {
   },
   defaultNS: 'common',
   ns: [
-    'common', 'home'
+    'common',
+    'home',
+    'about',
+    'projects',
+    'services',
+    'news',
+    'vacancies',
+    'contacts',
   ],
   use: process.browser ? [HttpBackend] : [],
 }
