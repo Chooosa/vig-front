@@ -109,7 +109,7 @@ a {
 .ui-animated-number {
   color: $primary;
   font-size: 56px;
-  max-height: 80px;
+  height: 80px;
   font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ a {
 
   .card-title {
     font-size: 24px;
-    line-height: 32px;
+    line-height: 28px;
     font-weight: 400;
     transform: translateY(60px);
     transition: transform 0.8s;
@@ -136,7 +136,7 @@ a {
   .card-description {
     margin-top: 12px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     opacity: 0;
     transform: translateY(60px);
     transition: transform 0.8s, opacity 0.4s;
@@ -174,6 +174,79 @@ a {
     .card-button {
       opacity: 1;
       transition: opacity 1s;
+    }
+  }
+
+  @include tablet {
+    padding: 50px 20px;
+
+    .card-title {
+      font-size: 22px;
+      line-height: 26px;
+      transform: translateY(80px);
+    }
+
+    .card-description {
+      transform: translateY(80px);
+    }
+  }
+}
+
+.mobile-animated-service-card {
+  width: 100%;
+  background: #f6f6f6;
+  border: 2px solid #ececec;
+  border-radius: 1px;
+  color: $black;
+  min-height: 140px;
+  position: relative;
+  transition: border-color $trans-fast;
+
+  .toggle-card-button {
+    @include button-reset;
+    padding: 20px;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card-title {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: left;
+    }
+
+    .chevron-icon {
+      margin-left: 10px;
+      transition: transform $trans;
+    }
+  }
+
+  .card-content {
+    .card-description {
+      padding: 0 20px 20px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .card-button {
+      height: 50px;
+      width: 100%;
+      background-color: $primary;
+      transition: opacity 0.8s;
+      color: $white;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  &._opened {
+    border-color: $primary;
+
+    .toggle-card-button .chevron-icon {
+      transform: rotate(90deg);
     }
   }
 }

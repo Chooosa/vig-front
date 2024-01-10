@@ -97,6 +97,13 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &.section-typing {
@@ -117,8 +124,31 @@
       letter-spacing: 1.5px;
     }
 
-    @include mobile {
+    @include tablet {
       padding: 40px 50px 20px;
+
+      .typing-title {
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+      .ui-typing-text {
+        font-size: 30px;
+        line-height: 34px;
+      }
+    }
+
+    @include mobile {
+      padding: 40px 40px 20px;
+
+      .ui-typing-text {
+        font-size: 28px;
+        line-height: 32px;
+      }
+    }
+
+    @include mobile-large {
+      padding: 30px 20px 20px;
 
       .typing-title {
         font-size: 20px;
@@ -126,8 +156,32 @@
       }
 
       .ui-typing-text {
-        font-size: 32px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 28px;
+      }
+    }
+
+    @include mobile-medium {
+      .typing-title {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .ui-typing-text {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    @include mobile-small {
+      .typing-title {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      .ui-typing-text {
+        font-size: 16px;
+        line-height: 20px;
       }
     }
   }
@@ -138,7 +192,7 @@
     .goals-title {
       font-weight: 600;
       font-size: 42px;
-      line-height: 50px;
+      line-height: 46px;
       margin-bottom: 40px;
     }
 
@@ -166,13 +220,70 @@
 
     .goals-conclusion {
       font-size: 16px;
-      line-height: 22px;
+      line-height: 20px;
+      font-weight: 600;
       letter-spacing: 0.05em;
       margin-top: 5px;
     }
 
     .request-button {
       margin-top: 40px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    @include tablet {
+      padding: 30px 20px;
+
+      .goals-title {
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 30px;
+      }
+    }
+
+    @include mobile {
+      padding-top: 20px;
+
+      .goals-title {
+        font-size: 34px;
+        line-height: 38px;
+      }
+
+      .goals-list .goal-item {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    @include mobile-large {
+      padding-top: 10px;
+
+      .goals-title {
+        font-size: 28px;
+        line-height: 32px;
+      }
+
+      .goals-conclusion {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    @include mobile-medium {
+      .goals-title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .request-button {
+        margin-top: 20px;
+      }
+    }
+
+    @include mobile-small {
+
     }
   }
 }

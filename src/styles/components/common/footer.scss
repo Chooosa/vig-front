@@ -42,6 +42,12 @@
       .address-link {
         margin-top: 14px;
       }
+
+      &._logo {
+        .nav-link {
+          width: max-content;
+        }
+      }
     }
 
     .footer-bottom-row {
@@ -49,6 +55,22 @@
       font-weight: 600;
       opacity: 0.5;
       font-size: 14px;
+    }
+  }
+
+  @include mobile {
+    .footer-content {
+      .footer-columns-wrap {
+        flex-direction: column;
+      }
+
+      .footer-column {
+        margin-top: 20px;
+
+        &._logo {
+          margin-top: 0;
+        }
+      }
     }
   }
 }
