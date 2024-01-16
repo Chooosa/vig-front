@@ -67,7 +67,7 @@ const Header = forwardRef((props, ref) => {
         </div>
       </div>
 
-      <HeaderMenuModal opened={isMenuOpened} />
+      <HeaderMenuModal opened={isMenuOpened} onClose={() => setIsMenuOpened(false)} />
     </header>
   );
 });

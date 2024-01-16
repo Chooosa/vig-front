@@ -58,4 +58,25 @@
       }
     }
   }
+
+  @include tablet {
+    .map-wrap {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .contacts-container {
+      flex-direction: column;
+    }
+  }
+
+  @include mobile {
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .map-wrap {
+      margin-bottom: 20px;
+    }
+  }
 }

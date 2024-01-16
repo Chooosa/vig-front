@@ -101,6 +101,7 @@ a {
 
 .title {
   font-size: 30px;
+  line-height: 34px;
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
@@ -335,6 +336,18 @@ a {
         .request-form-right-content {
           .request-form-textarea {
             height: 200px;
+          }
+        }
+
+        @include mobile {
+          flex-direction: column;
+
+          .request-form-left-content {
+            margin-right: 0;
+          }
+
+          .request-form-right-content {
+            margin-top: 10px;
           }
         }
       }
