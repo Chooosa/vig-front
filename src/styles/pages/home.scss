@@ -65,7 +65,7 @@
   }
 
   &.section-numbers {
-    padding: 20px;
+    padding: 40px 20px;
 
     .numbers-container {
       display: flex;
@@ -85,9 +85,18 @@
           margin-right: 0;
         }
 
+        .number-title {
+          text-align: center;
+          font-size: 18px;
+          line-height: 22px;
+          color: $primary;
+        }
+
         .number-label {
           text-align: center;
           font-size: 22px;
+          line-height: 26px;
+          margin-top: 5px;
         }
       }
     }
@@ -96,7 +105,7 @@
   &.section-services {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 40px 20px;
 
     @include mobile {
       flex-direction: column;

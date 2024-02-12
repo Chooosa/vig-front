@@ -6,6 +6,7 @@ import '../styles/app.scss';
 import Root from '../components/common/Root';
 import { useHMR } from '../hooks';
 import config from '../../next-i18next.config';
+import Head from '@/components/common/Head';
 
 function MyApp({ Component, pageProps }) {
   const { asPath } = useRouter();
@@ -31,7 +32,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {/*TODO <Head />*/}
+      <Head />
       <Root Component={Component} pageProps={pageProps} />
     </>
   );

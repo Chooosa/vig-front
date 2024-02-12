@@ -71,7 +71,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom-row">
-          ВЕНТ-ИНТЕР ГРУПП © 2023
+          ВЕНТ-ИНТЕР ГРУПП © 2024
         </div>
       </div>
     </footer>
