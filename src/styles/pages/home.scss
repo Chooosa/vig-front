@@ -73,6 +73,14 @@
 
       @include mobile {
         flex-direction: column;
+
+        .number-wrap {
+          margin-bottom: 20px;
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
       }
 
       .number-wrap {

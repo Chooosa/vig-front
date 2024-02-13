@@ -51,17 +51,17 @@ function Footer() {
 
           <div className="footer-column _contacts">
             <a href={phoneNumberHref} className="phone-link">
-              <PhoneIcon className="phone-icon" />
+              {/*<PhoneIcon className="phone-icon" />*/}
               {phoneNumber}
             </a>
 
             <a href={addressHref} className="address-link" target="_blank" rel="noreferrer noopener nofollow">
-              <PinIcon className="pin-icon" />
+              {/*<PinIcon className="pin-icon" />*/}
               <span className="link-content">{t('address')}</span>
             </a>
 
             <a href={companyMailHref} className="mail-link">
-              <MailIcon className="mail-icon" />
+              {/*<MailIcon className="mail-icon" />*/}
               {companyMail}
             </a>
 

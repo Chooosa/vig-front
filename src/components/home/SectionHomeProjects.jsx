@@ -4,8 +4,11 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import Slider from "react-slick";
 
-import tempProject1 from '../../../public/assets/home/projects/temp-project-1.jpg';
-import tempProject2 from '../../../public/assets/home/projects/temp-project-2.jpg';
+import AirportVladikavkazImageSrc from '../../../public/assets/home/projects/airport-vladikavkaz.png';
+import AirportSimpheropolImageSrc from '../../../public/assets/home/projects/airport-simpheropol.png';
+import ZavodKalugaImageSrc from '../../../public/assets/home/projects/kaluga-zavod.png';
+import HospitalPrezidentImageSrc from '../../../public/assets/home/projects/hospital-prezident.png';
+import AquatoriaImageSrc from '../../../public/assets/home/projects/aquatoria.png';
 
 const Arrow = ({ type = 'next', onClick, style, className }) => (
   <div
@@ -41,10 +44,19 @@ function SectionHomeProjects(props) {
       {isMounted && (
         <Slider {...sliderSettings}>
           <div className="slider-content">
-            <Image src={tempProject1} alt="temp" />
+            <Image src={AirportVladikavkazImageSrc} alt="Аэропорт Владикавказ" />
           </div>
           <div className="slider-content">
-            <Image src={tempProject2} alt="temp" />
+            <Image src={AirportSimpheropolImageSrc} alt="Аэропорт Симферополь" />
+          </div>
+          <div className="slider-content">
+            <Image src={ZavodKalugaImageSrc} alt="Звод Калуга" />
+          </div>
+          <div className="slider-content">
+            <Image src={HospitalPrezidentImageSrc} alt="Госпиталь при призеденте" />
+          </div>
+          <div className="slider-content">
+            <Image src={AquatoriaImageSrc} alt="ЖК Акватория" />
           </div>
         </Slider>
       )}
