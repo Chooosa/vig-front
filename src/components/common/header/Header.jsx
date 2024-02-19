@@ -13,7 +13,7 @@ import PhoneIcon from '../../../assets/svg/phone.svg';
 
 const MOBILE_WIDTH = 768;
 
-const Header = forwardRef((props, ref) => {
+const Header = forwardRef(({ pageId }, ref) => {
   const { t } = useTranslation('common');
   const linksById = t('nav', { returnObjects: true });
   const links = Object.entries(linksById);
@@ -35,7 +35,7 @@ const Header = forwardRef((props, ref) => {
             {phoneNumber}
           </a>
 
-          <LangSwitch />
+          <LangSwitch pageId={pageId} />
         </div>
       </div>
 
