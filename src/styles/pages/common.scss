@@ -119,7 +119,7 @@ a {
   position: relative;
   flex-basis: 50%;
   height: 300px;
-  background: #f6f6f6;
+  background: rgba(246, 246, 246, 0.8);
   border: 2px solid #ececec;
   padding: 70px 30px;
   transition: border-color 0.8s;
@@ -196,7 +196,7 @@ a {
 
 .mobile-animated-service-card {
   width: 100%;
-  background: #f6f6f6;
+  background: rgba(246, 246, 246, 0.8);
   border: 2px solid #ececec;
   border-radius: 1px;
   color: $black;

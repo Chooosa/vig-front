@@ -44,10 +44,10 @@ function SectionHomeProjects(props) {
       {isMounted && (
         <Slider {...sliderSettings}>
           <div className="slider-content">
-            <Image src={AirportVladikavkazImageSrc} alt="Аэропорт Владикавказ" />
+            <Image src={AirportSimpheropolImageSrc} alt="Аэропорт Симферополь" />
           </div>
           <div className="slider-content">
-            <Image src={AirportSimpheropolImageSrc} alt="Аэропорт Симферополь" />
+            <Image src={AirportVladikavkazImageSrc} alt="Аэропорт Владикавказ" />
           </div>
           <div className="slider-content">
             <Image src={ZavodKalugaImageSrc} alt="Звод Калуга" />

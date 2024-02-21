@@ -1,3 +1,4 @@
+import SectionHomeGreetings from '@/components/home/SectionHomeGreetings';
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Page from '../components/common/Page';
@@ -11,6 +12,7 @@ function Home() {
 
   return (
     <Page id="home">
+      <SectionHomeGreetings />
       <SectionHomeTyping />
       <SectionHomeGoals />
       <SectionHomeProjects />
