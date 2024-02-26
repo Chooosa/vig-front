@@ -1,11 +1,67 @@
-@keyframes scaling {
+@keyframes scaling-rotate {
   0% {
     transform: scale(1) rotate(15deg);
   }
+
   50% {
     transform: scale(1.1) rotate(0);
   }
+
   100% {
     transform: scale(1) rotate(15deg);
+  }
+}
+
+@keyframes animate-text-background {
+  0%, 100% {
+    background-position: left top;
+  }
+
+  25%{
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-background {
+  0%{
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100%{
+    transform: translateY(-100vh) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }

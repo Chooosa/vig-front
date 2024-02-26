@@ -49,7 +49,7 @@ a {
     color: $primary;
 
     .phone-icon {
-      animation-name: scaling;
+      animation-name: scaling-rotate;
       animation-duration: 0.5s;
       animation-delay: 0.15s;
     }
@@ -402,15 +402,6 @@ a {
   animation: rotation 1s linear infinite;
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -440,7 +431,7 @@ a {
       width: 20px;
       height: 20px;
       background: rgba(102, 136, 189, 0.3);
-      animation: animate 25s linear infinite;
+      animation: animate-background 25s linear infinite;
       bottom: -150px;
 
       &:nth-child(1){
@@ -510,18 +501,4 @@ a {
       }
     }
   }
-}
-
-@keyframes animate {
-  0%{
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
-    border-radius: 0;
-  }
-  100%{
-    transform: translateY(-100vh) rotate(720deg);
-    opacity: 0;
-    border-radius: 50%;
-  }
-
 }

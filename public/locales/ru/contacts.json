@@ -8,5 +8,10 @@
   "company": "Вент Интер Групп",
   "phone": "Телефон",
   "address-correspondence-title": "Адрес для корреспонденции",
-  "address-correspondence": "123298, г. Москва, ул. Берзарина, д.8, пом. 1"
+  "address-correspondence": "123298, г. Москва, ул. Берзарина, д.8, пом. 1",
+  "map": {
+    "balloon-header": "ВЕНТ-ИНТЕР ГРУПП",
+    "balloon-body": "Современные инженерные системы",
+    "balloon-hint": "ВЕНТ-ИНТЕР ГРУПП"
+  }
 }

@@ -7,6 +7,7 @@ import SectionHomeGoals from '@/components/home/SectionHomeGoals';
 import SectionHomeProjects from '@/components/home/SectionHomeProjects';
 import SectionHomeServices from '@/components/home/SectionHomeServices';
 import SectionHomeTyping from '@/components/home/SectionHomeTyping';
+import SectionHomeProjectsMap from '@/components/home/SectionHomeProjectsMap';
 
 function Home() {
 
@@ -18,6 +19,7 @@ function Home() {
       <SectionHomeProjects />
       <SectionHomeNumbers />
       <SectionHomeServices />
+      <SectionHomeProjectsMap />
     </Page>
   );
 }

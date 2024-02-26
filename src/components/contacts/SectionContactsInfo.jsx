@@ -10,7 +10,7 @@ import React, { useRef } from 'react';
 function SectionContactsInfo(props) {
   const { t } = useTranslation('contacts');
   const mapRef = useRef();
-  useContactsMap(mapRef)
+  useContactsMap(mapRef);
 
   return (
     <Section id="contacts">
