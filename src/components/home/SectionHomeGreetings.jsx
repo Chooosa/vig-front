@@ -10,22 +10,24 @@ function SectionHomeGreetings() {
 
   return (
     <Section id="greetings">
-      <h1 className="company-name">
-        {t('greetings.company-name')}
+      <div className="greetings-container">
+        <h1 className="company-name">
+          {t('greetings.company-name')}
 
-        <span className="company-description">
+          <span className="company-description">
           {t('greetings.company-description')}
         </span>
-      </h1>
+        </h1>
 
-      <div className="reward-wrapper">
-        <div className="image-wrap">
-          <Image src={RewardImageSrc} alt="Награда" className="reward-img" width={180} height={180} />
+        <div className="reward-wrapper">
+          <div className="image-wrap">
+            <Image src={RewardImageSrc} alt="Награда" className="reward-img" width={180} height={180} />
+          </div>
+          <HtmlText tag="span" className="reward-desc">{t('greetings.reward-desc')}</HtmlText>
         </div>
-        <HtmlText tag="span" className="reward-desc">{t('greetings.reward-desc')}</HtmlText>
-      </div>
 
-      <h2 className="company-slogan">{t('greetings.company-slogan')}</h2>
+        <h2 className="company-slogan">{t('greetings.company-slogan')}</h2>
+      </div>
     </Section>
   );
 }
