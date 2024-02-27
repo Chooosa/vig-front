@@ -1,17 +1,15 @@
 import CollapsibleElement from '@/components/common/utils/CollapsibleElement';
 import HtmlText from '@/components/common/utils/HtmlText';
-import { useWindowDimensions } from '@/hooks';
+import { useDevice } from '@/hooks';
 import classnames from 'classnames';
 import { useTranslation } from 'next-i18next';
 import React, { useCallback, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 import ChevronIcon from '../../assets/svg/chevron-v2.svg';
 
-const MOBILE_WIDTH = 768;
-
 function AnimatedServiceCard({ id, title, description, openedId, setOpenedId }) {
   const { t } = useTranslation('common');
-  const { width } = useWindowDimensions();
+  const { isMobile } = useDevice();
   const [opened, setOpened] = useState(false);
 
   const isActive = useMemo(() => (
@@ -26,7 +24,7 @@ function AnimatedServiceCard({ id, title, description, openedId, setOpenedId }) 
     return setOpened((prev) => !prev);
   }, [id]);
 
-  if (width > MOBILE_WIDTH) {
+  if (!isMobile) {
     //TODO перенести анимацию на CSSTransition
     return (
       <div className={classnames('animated-service-card')}>

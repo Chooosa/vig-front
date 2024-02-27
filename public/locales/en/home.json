@@ -1,144 +1,153 @@
 {
   "meta": {
-    "title": "VIG | Современные инженерные системы",
-    "desc": "Проектирование, производство, монтаж, накладка и обслуживание инженерных систем",
-    "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
+    "title": "VIG | Modern engineering systems",
+    "desc": "Design, production, installation, installation and maintenance of engineering systems",
+    "keywords": "ventilation, air conditioning, design, production, installation, lining, maintenance"
   },
   "typing": {
-    "title": "Мы занимаемся:",
+    "title": "We do:",
     "values": [
       {
-        "text": "Вентиляцией",
+        "text": "Ventilation",
         "delay": 2000
       },
       {
-        "text": "Кондиционированием",
+        "text": "Air conditioning",
         "delay": 2000
       },
       {
-        "text": "Проектированием",
+        "text": "Designing",
         "delay": 2000
       },
       {
-        "text": "Поставкой оборудования",
+        "text": "Supply of equipment",
         "delay": 2000
       },
       {
-        "text": "Строительным монтажом",
+        "text": "Construction installation",
         "delay": 2000
       },
       {
-        "text": "Сервисным обсулживанием",
+        "text": "Service",
         "delay": 2000
       },
       {
-        "text": "Отоплением",
+        "text": "Heating",
         "delay": 2000
       }
     ]
   },
   "goals": {
-    "title": "Мы сможем вам помочь если вам необходимо:",
+    "title": "We can help you if you need:",
     "list": [
-      "Разработать рабочую документацию",
-      "Требуется обслуживание и поддержка работоспособности существующих систем",
-      "Компьютерное проектирование, разработка проектно-сметной документации",
-      "Проведение монтажных и пусконаладочных работ",
-      "Выполнение функций комплексного генподрядчика по инженерным системам",
-      "Услуги сервисной службы, гарантийное и послегарантийное обслуживание",
-      "Осуществить поставку оборудования"
+      "Develop working documentation",
+      "Maintenance and support of existing systems is required",
+      "Computer-aided design, development of design and estimate documentation",
+      "Installation and commissioning works",
+      "Performing the functions of a comprehensive general contractor for engineering systems",
+      "Customer services, warranty and post-warranty service",
+      "Supply equipment"
     ],
-    "conclusion": "Оставьте заявку - и мы сможем решить вашу проблему!"
+    "conclusion": "Leave a request - and we can solve your problem!"
   },
   "numbers": [
     {
       "number": 20,
-      "label": "лет работы"
+      "label": "years of work"
     },
     {
       "number": 100,
-      "label": "завершенных<br />объектов"
+      "label": "completed<br />objects"
     },
     {
       "number": 300,
-      "label": "партнеров"
+      "label": "partners"
     },
     {
       "number": 70,
-      "label": "квалифицированных<br />сотрудников"
+      "label": "qualified<br />employees"
     }
   ],
   "services": [
     {
       "id": "engineering",
-      "title": "Проектирование",
-      "description": "<span class=\"bold\">Проектирование внутренних инженерных систем</span> - вентиляции, кондиционирования, дымоудаления, пожаротушения. Разработаем в соответствии с нормативной документацией и техническим заданием."
+      "title": "Design",
+      "description": "<span class=\"bold\">Design of internal engineering systems</span> - ventilation, air conditioning, smoke removal, fire extinguishing. We will develop in accordance with regulatory documentation and technical specifications."
     },
     {
       "id": "supply",
-      "title": "Наладочные<br />работы",
-      "description": "<span class=\"bold\">Пуско-наладочные работы</span> – запуск систем и проверка всех режимов работы, тестирование и ввод в эксплуатацию системы перед сдачей объекта заказчику."
+      "title": "Adjustment<br />work",
+      "description": "<span class=\"bold\">Commissioning work</span> - launching systems and checking all operating modes, testing and commissioning of the system before handing over the facility to the customer."
     },
     {
       "id": "installation",
-      "title": "Монтаж",
-      "description": "<span class=\"bold\">Монтаж внутренних инженерных систем</span> - систем вентиляции и  кондиционирования, дымоудаления, пожаротушения. Выполним монтажные работы любой сложности с учетом актов и нормативно-правовой документации."
+      "title": "Montage",
+      "description": "<span class=\"bold\">Installation of internal engineering systems</span> - ventilation and air conditioning systems, smoke removal, fire extinguishing. We will carry out installation work of any complexity, taking into account acts and regulatory documents."
     },
     {
       "id": "service",
-      "title": "Обслуживание",
-      "description": "<span class=\"bold\">Обслуживание систем вентиляции и кондиционирования</span> – проведём техническое и послегарантийное обслуживание оборудования, благодаря своевременному обслуживанию увеличим ресурс работы климатического оборудования."
+      "title": "Service",
+      "description": "<span class=\"bold\">Maintenance of ventilation and air conditioning systems</span> - we will carry out technical and post-warranty maintenance of equipment, thanks to timely maintenance we will increase the service life of climate control equipment."
     }
   ],
   "greetings": {
-    "company-name": "Вент-Интер Групп",
-    "company-description": "Современные инженерные системы",
-    "reward-desc": "Номинант реестра эффективных<br />и&nbsp;социально значимых предприятий",
-    "company-slogan": "Надёжный партнёр, проверенный временем"
+    "company-name": "Vent-Inter Group",
+    "company-description": "Modern engineering systems",
+    "reward-desc": "Nominee of the register of effective<br />and&nbsp;socially significant enterprises",
+    "company-slogan": "A reliable partner, time-tested"
   },
-  "projects-map-title": "Карта объектов",
+  "projects-map-title": "Object Map",
   "projects-coords": [
     {
-      "title": "Международный аэропорт Владикавказ",
-      "coords": [
-        43.20191,
-        44.603453
-      ]
+      "title": "Vladikavkaz International Airport",
+      "coords": [43.201910, 44.603453]
     },
     {
-      "title": "Аэропорт Симферополь",
-      "coords": [
-        45.036241,
-        33.980968
-      ]
+      "title": "Simferopol Airport",
+      "coords": [45.036241, 33.980968]
     },
     {
-      "title": "Международный аэропорт Байкал",
-      "coords": [
-        51.804811,
-        107.443779
-      ]
+      "title": "Baikal International Airport",
+      "coords": [51.804811, 107.443779]
     },
     {
-      "title": "Лечебно-реабилитационный центр Минздрава РФ",
-      "coords": [
-        55.818758,
-        37.466138
-      ]
+      "title": "Treatment and rehabilitation center of the Ministry of Health of the Russian Federation",
+      "coords": [55.818758, 37.466138]
     },
     {
-      "title": "Завод «Ново-Нордиск» по производству инсулиновых препаратов",
-      "coords": [
-        54.568363,
-        36.341913
-      ]
+      "title": "Novo-Nordisk plant for the production of insulin preparations",
+      "coords": [54.568363, 36.341913]
     },
     {
-      "title": "Реабилитационный центр для  инвалидов «Преодоление»",
-      "coords": [
-        55.801412,
-        37.556599
-      ]
+      "title": "Rehabilitation center for the disabled \"Overcoming\"",
+      "coords": [55.801412, 37.556599]
+    }
+  ],
+  "projects": [
+    {
+      "id": "vladikavkaz",
+      "title": "Vladikavkaz International Airport",
+      "desc": "New terminal complex of domestic flights at Vladikavkaz International Airport"
+    },
+    {
+      "id": "simpheropol",
+      "title": "Simferopol Airport",
+      "desc": "The terminal complex of the airport \"Simferopol\""
+    },
+    {
+      "id": "kaluga",
+      "title": "Novo-Nordisk Plant",
+      "desc": "Novo-Nordisk plant for the production of insulin preparations"
+    },
+    {
+      "id": "hospital",
+      "title": "Rehabilitation center of the Federal State Budgetary Institution",
+      "desc": "Rehabilitation center of the Federal State Budgetary Institution \"Clinical Hospital\" of the Administration of the President of the Russian Federation"
+    },
+    {
+      "id": "aquatoria",
+      "title": "Residential complex \"Aquatoria\"",
+      "desc": "Residential complex \"Aquatoria\""
     }
   ]
 }

@@ -1,14 +1,53 @@
 {
   "meta": {
-    "title": "VIG | О компании",
-    "desc": "Проектирование, производство, монтаж, накладка и обслуживание инженерных систем",
-    "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
+    "title": "VIG | About the company",
+    "desc": "Design, production, installation, installation and maintenance of engineering systems",
+    "keywords": "ventilation, air conditioning, design, production, installation, lining, maintenance"
   },
-  "title": "О компании",
-  "descriptions": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  "title": "About the company",
+  "paragraphs": [
+    {
+      "title": "LLC \"Vent-Inter Group\"",
+      "descriptions": [
+        "Modern engineering systems are the foundation for the successful development of our clients' businesses. Our company is a recognized expert in the field of engineering systems. This was made possible thanks to a professional and experienced team, effective project management and a quality management system."
+      ]
+    },
+    {
+      "title": "History",
+      "descriptions": [
+        "The Vent-Inter company was founded in 1990 as the first Russian-Finnish joint venture for the production of air ducts and the provision of services in the field of ventilation and air conditioning for facilities for a wide variety of purposes.",
+        "In 1996, based on personnel and production capabilities, the Vent-Inter company became a 100% Russian enterprise.",
+        "In 2005 the company was renamed Vent-Inter Engineering.",
+        "In 2009, the company's management decided to expand the range of services provided to the customer, and the company changed its name to Vent-Inter group.",
+        "Since 2022, the Vent-Inter group company has been a participant in foreign economic activity and supplies Huber & Ranner equipment."
+      ]
+    },
+    {
+      "title": "Our Policy",
+      "descriptions": [
+        "An integral part of the activities of Vent-Inter Group is:",
+        [
+          "Understanding customer needs and providing the highest quality services.",
+          "Health protection, labor safety and continuous improvement of the professional level of specialists (including certification as an expert auditor GOST R ISO 9001-2015, GOST R ISO 14001-2016, GOST R ISO 45001-2020)",
+          "Protection of the natural environment."
+        ]
+      ]
+    },
+    {
+      "title": "Main areas of activity",
+      "descriptions": [
+        "Comprehensive equipment of objects of any complexity with modern engineering systems.",
+        [
+          "Primary research and consulting.",
+          "Selection of optimal technical solutions.",
+          "Development of the concept and approval of technical specifications.",
+          "Computer-aided design, development of design and estimate documentation.",
+          "Delivery of equipment anywhere in the country.",
+          "Carrying out installation and commissioning work.",
+          "Production of air ducts and ventilation and heating equipment.",
+          "Customer services, warranty and post-warranty service."
+        ]
+      ]
+    }
   ]
 }

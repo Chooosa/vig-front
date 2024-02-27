@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 
 const YANDEX_MAP_API_KEY = 'b6d7a8dd-f46c-4975-8765-f1e115384eeb';
+const SCRIPT_SRC = `https://api-maps.yandex.ru/2.1/?apikey=${YANDEX_MAP_API_KEY}&lang=ru_RU`;
 
 const noop = new Promise(() => {});
 
@@ -26,7 +27,10 @@ function useYMaps() {
         script.type = 'text/javascript';
         script.async = true;
 
-        head.appendChild(script);
+        const YMapsscript = document.querySelector(`script[src="${SCRIPT_SRC}"]`);
+        if (!YMapsscript) {
+          head.appendChild(script);
+        }
       });
     }
   } else {

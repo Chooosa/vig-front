@@ -5,14 +5,34 @@ import React from 'react';
 
 function SectionAboutInfo(props) {
   const { t } = useTranslation('about');
-  const descriptions = t('descriptions', { returnObjects: true })
+  const paragraphs = t('paragraphs', { returnObjects: true })
 
   return (
     <Section id="about">
       <h1 className="title">{t('title')}</h1>
 
-      {descriptions.map((desc, i) => (
-        <HtmlText key={desc + i} className="about-description" tag="p">{desc}</HtmlText>
+      {paragraphs.map(({ title, descriptions }) => (
+        <div key={title} className="about-paragraph-wrap">
+          <h2 className="about-paragraph-title">{title}</h2>
+
+          {descriptions.map((desc) => {
+            if (Array.isArray(desc)) {
+              return (
+                <ul key={desc.join(',')} className="about-paragraph-list">
+                  {desc.map((item) => (
+                    <HtmlText key={item} tag="li" className="about-paragraph-list-item">{item}</HtmlText>
+                  ))}
+                </ul>
+              );
+            }
+
+            return (
+              <HtmlText key={desc} tag="p" className="about-paragraph-description">
+                {desc}
+              </HtmlText>
+            )
+          })}
+        </div>
       ))}
     </Section>
   );
