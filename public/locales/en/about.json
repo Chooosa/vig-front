@@ -1,51 +1,51 @@
 {
   "meta": {
-    "title": "VIG | О компании",
-    "desc": "Проектирование, производство, монтаж, накладка и обслуживание инженерных систем",
-    "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
+    "title": "VIG | About the company",
+    "desc": "Design, production, installation, installation and maintenance of engineering systems",
+    "keywords": "ventilation, air conditioning, design, production, installation, lining, maintenance"
   },
-  "title": "О компании",
+  "title": "About the company",
   "paragraphs": [
     {
-      "title": "ООО \"Вент-Интер групп\"",
+      "title": "LLC \"Vent-Inter Group\"",
       "descriptions": [
-        "Современные инженерные системы – это фундамент для успешного развития бизнеса наших клиентов. Наша компания является признанным экспертом в области инженерных систем. Это стало возможным благодаря профессиональной и опытной команде, эффективному управлению проектами и системе менеджмента качества."
+        "Modern engineering systems are the foundation for the successful development of our clients' businesses. Our company is a recognized expert in the field of engineering systems. This was made possible thanks to a professional and experienced team, effective project management and a quality management system."
       ]
     },
     {
-      "title": "История",
+      "title": "History",
       "descriptions": [
-        "Компания Вент-Интер была основана в 1990г. как первое Российско-Финское  совместное предприятие по производству воздуховодов и предоставлению услуг в области вентиляции и кондиционирования воздуха для объектов самого  различного назначения.",
-        "В 1996г. на базе кадров и производственных возможностей компания Вент-Интер стала 100% Российским предприятием.",
-        "В 2005г. компания была переименована в Вент-Интер Инжиниринг.",
-        "В 2009г. руководством компании, было принято решение расширить спектр услуг, предоставляемых заказчику, и компания сменила название на Вент-Интер  групп.",
-        "С 2022г. компания Вент-Интер групп является участником внешнеэкономической деятельности и поставляет оборудование Huber & Ranner."
+        "The Vent-Inter company was founded in 1990 as the first Russian-Finnish joint venture for the production of air ducts and the provision of services in the field of ventilation and air conditioning for facilities for a wide variety of purposes.",
+        "In 1996, based on personnel and production capabilities, the Vent-Inter company became a 100% Russian enterprise.",
+        "In 2005 the company was renamed Vent-Inter Engineering.",
+        "In 2009, the company's management decided to expand the range of services provided to the customer, and the company changed its name to Vent-Inter group.",
+        "Since 2022, the Vent-Inter group company has been a participant in foreign economic activity and supplies Huber & Ranner equipment."
       ]
     },
     {
-      "title": "Наша политика",
+      "title": "Our Policy",
       "descriptions": [
-        "Неотъемлемую часть деятельности Вент-Интер групп составляет: <ul><li>Понимание потребностей заказчика и предоставление максимально качественных услуг.</li><li>Охрана здоровья, безопасность труда и постоянное повышение профессионального уровня специалистов (в том числе аттестация в качестве эксперта-аудитора ГОСТ Р ИСО 9001-2015, ГОСТ Р ИСО 14001-2016, ГОСТ Р ИСО 45001-2020).</li><li>Защита окружающей природной среды.</li></ul>",
+        "An integral part of the activities of Vent-Inter Group is:",
         [
-          "Понимание потребностей заказчика и предоставление максимально качественных услуг.",
-          "Охрана здоровья, безопасность труда и постоянное повышение профессионального уровня специалистов (в том числе аттестация в качестве эксперта-аудитора ГОСТ Р ИСО 9001-2015, ГОСТ Р ИСО 14001-2016, ГОСТ Р ИСО 45001-2020).",
-          "Защита окружающей природной среды."
+          "Understanding customer needs and providing the highest quality services.",
+          "Health protection, labor safety and continuous improvement of the professional level of specialists (including certification as an expert auditor GOST R ISO 9001-2015, GOST R ISO 14001-2016, GOST R ISO 45001-2020)",
+          "Protection of the natural environment."
         ]
       ]
     },
     {
-      "title": "Основные направления деятельности",
+      "title": "Main areas of activity",
       "descriptions": [
-        "Комплексное оснащение объектов любой сложности современными  инженерными, системами. <ul><li>Первичные исследования и консалтинг.</li><li>Выбор оптимальных технических решений.</li><li>Разработка концепции и согласование технического задания.</li><li>Компьютерное проектирование, разработка проектно-сметной  документации.</li><li>Поставка оборудования в любую точку страны.</li><li>Проведение монтажных и пусконаладочных работ.</li><li>Производство воздуховодов и вентиляционно-отопительного оборудования.</li><li>Услуги сервисной службы, гарантийное и послегарантийное  обслуживание.</li></ul>",
+        "Comprehensive equipment of objects of any complexity with modern engineering systems.",
         [
-          "Первичные исследования и консалтинг.",
-          "Выбор оптимальных технических решений.",
-          "Разработка концепции и согласование технического задания.",
-          "Компьютерное проектирование, разработка проектно-сметной  документации.",
-          "Поставка оборудования в любую точку страны.",
-          "Проведение монтажных и пусконаладочных работ.",
-          "Производство воздуховодов и вентиляционно-отопительного оборудования.",
-          "Услуги сервисной службы, гарантийное и послегарантийное  обслуживание."
+          "Primary research and consulting.",
+          "Selection of optimal technical solutions.",
+          "Development of the concept and approval of technical specifications.",
+          "Computer-aided design, development of design and estimate documentation.",
+          "Delivery of equipment anywhere in the country.",
+          "Carrying out installation and commissioning work.",
+          "Production of air ducts and ventilation and heating equipment.",
+          "Customer services, warranty and post-warranty service."
         ]
       ]
     }

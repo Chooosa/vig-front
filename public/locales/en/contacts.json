@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "VIG | Контакты",
-    "desc": "Проектирование, производство, монтаж, накладка и обслуживание инженерных систем",
-    "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
+    "title": "VIG | Contacts",
+    "desc": "Design, production, installation, installation and maintenance of engineering systems",
+    "keywords": "ventilation, air conditioning, design, production, installation, lining, maintenance"
   },
-  "title": "Контактная информация",
-  "company": "Вент Интер Групп",
-  "phone": "Телефон",
-  "address-correspondence-title": "Адрес для корреспонденции",
-  "address-correspondence": "123298, г. Москва, ул. Берзарина, д.8, пом. 1",
+  "title": "Contact Information",
+  "company": "Vent Inter Group",
+  "phone": "Phone",
+  "address-correspondence-title": "Address for correspondence",
+  "address-correspondence": "123298, Moscow, Berzarina st., 8, room 1",
   "map": {
-    "balloon-header": "ВЕНТ-ИНТЕР ГРУПП",
-    "balloon-body": "Современные инженерные системы",
-    "balloon-hint": "ВЕНТ-ИНТЕР ГРУПП"
+    "balloon-header": "VENT-INTER GROUP",
+    "balloon-body": "Modern engineering systems",
+    "balloon-hint": "VENT-INTER GROUP"
   }
 }

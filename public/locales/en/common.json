@@ -1,31 +1,32 @@
 {
-  "navigation": "Навигация",
-  "our-services": "Наши услуги",
-  "home": "Главная",
-  "address": "123298, г. Москва, ул. Берзарина, д.8, пом. 1",
-  "details": "Подробнее",
-  "leave-request": "Оставить заявку",
-  "close": "Закрыть",
-  "more": "более",
+  "company-name": "Vent-Inter Group",
+  "navigation": "Navigation",
+  "our-services": "Our services",
+  "home": "Home",
+  "address": "123298, Moscow, Berzarina st., 8, room 1",
+  "details": "More details",
+  "leave-request": "Leave a request",
+  "close": "Close",
+  "more": "more",
   "nav": {
-    "about": "О компании",
-    "projects": "Проекты",
-    "services": "Услуги",
-    "vacancies": "Вакансии",
-    "contacts": "Контакты"
+    "about": "About the company",
+    "projects": "Projects",
+    "services": "Services",
+    "vacancies": "Vacancies",
+    "contacts": "Contacts"
   },
   "services": {
-    "engineering": "Проектирование",
-    "supply": "Поставка оборудования",
-    "installation": "Монтаж строительных конструкций",
-    "service": "Сервисное обслуживание"
+    "engineering": "Design",
+    "supply": "Supply of equipment",
+    "installation": "Installation of building structures",
+    "service": "Service"
   },
   "request-modal": {
-    "title": "Оставить заявку",
-    "success-title": "Спасибо за заявку",
-    "your-name": "Ваше имя:",
-    "phone-number": "Номер телефона:",
-    "message": "Сообщение",
-    "success-description": "Ваше обращение принято в работу"
+    "title": "Leave a request",
+    "success-title": "Thank you for your application",
+    "your-name": "Your name:",
+    "phone-number": "Phone number:",
+    "message": "Message",
+    "success-description": "Your request has been accepted"
   }
 }
