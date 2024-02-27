@@ -7,4 +7,5 @@ export { default as useSection } from './useSection';
 export { default as useStateWithRef } from './useStateWithRef';
 export { default as usePrevious } from './usePrevious';
 export { default as useWindowDimensions } from './useWindowDimensions';
+export { default as useDevice } from './useDevice';
 

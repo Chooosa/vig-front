@@ -5,10 +5,49 @@
     "keywords": "вентиляция, кондиционирование, проектирование, производство, монтаж, накладка, обслуживание"
   },
   "title": "О компании",
-  "descriptions": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  "paragraphs": [
+    {
+      "title": "ООО \"Вент-Интер групп\"",
+      "descriptions": [
+        "Современные инженерные системы – это фундамент для успешного развития бизнеса наших клиентов. Наша компания является признанным экспертом в области инженерных систем. Это стало возможным благодаря профессиональной и опытной команде, эффективному управлению проектами и системе менеджмента качества."
+      ]
+    },
+    {
+      "title": "История",
+      "descriptions": [
+        "Компания Вент-Интер была основана в 1990г. как первое Российско-Финское  совместное предприятие по производству воздуховодов и предоставлению услуг в области вентиляции и кондиционирования воздуха для объектов самого  различного назначения.",
+        "В 1996г. на базе кадров и производственных возможностей компания Вент-Интер стала 100% Российским предприятием.",
+        "В 2005г. компания была переименована в Вент-Интер Инжиниринг.",
+        "В 2009г. руководством компании, было принято решение расширить спектр услуг, предоставляемых заказчику, и компания сменила название на Вент-Интер  групп.",
+        "С 2022г. компания Вент-Интер групп является участником внешнеэкономической деятельности и поставляет оборудование Huber & Ranner."
+      ]
+    },
+    {
+      "title": "Наша политика",
+      "descriptions": [
+        "Неотъемлемую часть деятельности Вент-Интер групп составляет:",
+        [
+          "Понимание потребностей заказчика и предоставление максимально качественных услуг.",
+          "Охрана здоровья, безопасность труда и постоянное повышение профессионального уровня специалистов (в том числе аттестация в качестве эксперта-аудитора ГОСТ Р ИСО 9001-2015, ГОСТ Р ИСО 14001-2016, ГОСТ Р ИСО 45001-2020).",
+          "Защита окружающей природной среды."
+        ]
+      ]
+    },
+    {
+      "title": "Основные направления деятельности",
+      "descriptions": [
+        "Комплексное оснащение объектов любой сложности современными  инженерными, системами.",
+        [
+          "Первичные исследования и консалтинг.",
+          "Выбор оптимальных технических решений.",
+          "Разработка концепции и согласование технического задания.",
+          "Компьютерное проектирование, разработка проектно-сметной  документации.",
+          "Поставка оборудования в любую точку страны.",
+          "Проведение монтажных и пусконаладочных работ.",
+          "Производство воздуховодов и вентиляционно-отопительного оборудования.",
+          "Услуги сервисной службы, гарантийное и послегарантийное  обслуживание."
+        ]
+      ]
+    }
   ]
 }

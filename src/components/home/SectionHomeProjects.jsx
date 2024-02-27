@@ -1,7 +1,9 @@
 import Section from '@/components/common/Section';
+import { useDevice } from '@/hooks';
 import classnames from 'classnames';
+import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Slider from "react-slick";
 
 import AirportVladikavkazImageSrc from '../../../public/assets/home/projects/airport-vladikavkaz.png';
@@ -9,6 +11,12 @@ import AirportSimpheropolImageSrc from '../../../public/assets/home/projects/air
 import ZavodKalugaImageSrc from '../../../public/assets/home/projects/kaluga-zavod.png';
 import HospitalPrezidentImageSrc from '../../../public/assets/home/projects/hospital-prezident.png';
 import AquatoriaImageSrc from '../../../public/assets/home/projects/aquatoria.png';
+
+import AirportVladikavkazMobileImageSrc from '../../../public/assets/home/projects/mobile/airport-vladikavkaz.png';
+import AirportSimpheropolMobileImageSrc from '../../../public/assets/home/projects/mobile/airport-simpheropol.png';
+import ZavodKalugaMobileImageSrc from '../../../public/assets/home/projects/mobile/kaluga-zavod.png';
+import HospitalPrezidentMobileImageSrc from '../../../public/assets/home/projects/mobile/hospital-prezident.png';
+import AquatoriaMobileImageSrc from '../../../public/assets/home/projects/mobile/aquatoria.png';
 
 const Arrow = ({ type = 'next', onClick, style, className }) => (
   <div
@@ -30,8 +38,31 @@ const sliderSettings = {
   prevArrow: <Arrow type="prev" />,
 };
 
+const imgSrcByDevice = {
+  desktop: {
+    vladikavkaz: AirportVladikavkazImageSrc,
+    simpheropol: AirportSimpheropolImageSrc,
+    kaluga: ZavodKalugaImageSrc,
+    hospital: HospitalPrezidentImageSrc,
+    aquatoria: AquatoriaImageSrc,
+  },
+  mobile: {
+    vladikavkaz: AirportVladikavkazMobileImageSrc,
+    simpheropol: AirportSimpheropolMobileImageSrc,
+    kaluga: ZavodKalugaMobileImageSrc,
+    hospital: HospitalPrezidentMobileImageSrc,
+    aquatoria: AquatoriaMobileImageSrc,
+  }
+};
+
 function SectionHomeProjects(props) {
+  const { t } = useTranslation('home');
+  const { isMobile } = useDevice();
   const [isMounted, setIsMounted] = useState(false);
+  const projects = t('projects', { returnObjects: true })
+  const imgSrcById = useMemo(() => (
+    imgSrcByDevice[isMobile ? 'mobile' : 'desktop']
+  ), [isMobile, projects]);
 
   useEffect(() => {
     setIsMounted(true);
@@ -43,21 +74,11 @@ function SectionHomeProjects(props) {
     <Section id="projects">
       {isMounted && (
         <Slider {...sliderSettings}>
-          <div className="slider-content">
-            <Image src={AirportSimpheropolImageSrc} alt="Аэропорт Симферополь" />
-          </div>
-          <div className="slider-content">
-            <Image src={AirportVladikavkazImageSrc} alt="Аэропорт Владикавказ" />
-          </div>
-          <div className="slider-content">
-            <Image src={ZavodKalugaImageSrc} alt="Звод Калуга" />
-          </div>
-          <div className="slider-content">
-            <Image src={HospitalPrezidentImageSrc} alt="Госпиталь при призеденте" />
-          </div>
-          <div className="slider-content">
-            <Image src={AquatoriaImageSrc} alt="ЖК Акватория" />
-          </div>
+          {projects.map(({ id, title }) => (
+            <div className="slider-content" key={id}>
+              <Image src={imgSrcById[id]} alt={title} />
+            </div>
+          ))}
         </Slider>
       )}
     </Section>
