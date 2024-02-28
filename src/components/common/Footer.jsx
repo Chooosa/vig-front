@@ -42,7 +42,7 @@ function Footer() {
             <span className="column-title">{t('our-services')}</span>
             <div className="nav-links-wrapper">
               {serviceLinks.map(([key, value]) => (
-                <NavLink key={key} href={key} className="footer-link" active={asPath.includes(key)}>
+                <NavLink key={key} href={`services#${key}`} className="footer-link" active={asPath.includes(key)}>
                   {value}
                 </NavLink>
               ))}

@@ -8,6 +8,7 @@
   "leave-request": "Leave a request",
   "close": "Close",
   "more": "more",
+  "in-developing-title": "This section is under development",
   "nav": {
     "about": "About the company",
     "projects": "Projects",
@@ -17,8 +18,8 @@
   },
   "services": {
     "engineering": "Design",
-    "supply": "Supply of equipment",
-    "installation": "Installation of building structures",
+    "adjustment": "Adjustment work",
+    "installation": "Installation",
     "service": "Service"
   },
   "request-modal": {

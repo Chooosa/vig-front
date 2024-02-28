@@ -27,10 +27,12 @@ function useYMaps() {
         script.type = 'text/javascript';
         script.async = true;
 
-        const YMapsscript = document.querySelector(`script[src="${SCRIPT_SRC}"]`);
-        if (!YMapsscript) {
-          head.appendChild(script);
-        }
+        head.appendChild(script);
+
+        // const YMapsscript = document.querySelector(`script[src="${SCRIPT_SRC}"]`);
+        // if (!YMapsscript) {
+        //   head.appendChild(script);
+        // }
       });
     }
   } else {
