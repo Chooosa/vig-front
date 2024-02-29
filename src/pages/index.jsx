@@ -14,7 +14,7 @@ function Home() {
   return (
     <Page id="home">
       <SectionHomeGreetings />
-      <SectionHomeTyping />
+      {/*<SectionHomeTyping />*/}
       <SectionHomeGoals />
       <SectionHomeProjects />
       <SectionHomeNumbers />

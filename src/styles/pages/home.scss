@@ -2,12 +2,46 @@
 
 .section {
   &.section-projects {
-    max-width: $desktopMaxWidth;
     padding: 40px 0;
 
+    .slick-slider {
+      margin-bottom: 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
     .slick-dots {
-      bottom: 20px;
-      //TODO add styles
+      left: 0;
+
+      li {
+        &.slick-active {
+          button::before {
+            background-color: $primary;
+          }
+        }
+
+        button {
+          padding: 3.5px;
+
+          &::before {
+            content: "";
+            top: 3.5px;
+            left: 3.5px;
+            width: 13px;
+            height: 13px;
+            border: 1px solid $primary;
+            border-radius: 50%;
+            opacity: 0.7;
+            background-color: #FFFFFF;
+          }
+
+          &:hover {
+            &::before {
+              opacity: 1;
+            }
+          }
+        }
+      }
     }
 
     .slider-arrow {
@@ -17,22 +51,10 @@
       justify-content: center;
       position: absolute;
       z-index: 100;
-      right: 0;
+      right: 10px;
       height: 97.6%;
       top: 0;
-      width: 15%;
       cursor: pointer;
-
-      &:hover {
-        transition: background $trans-slow, backdrop-filter $trans-slow;
-        background: rgba( 0, 0, 0, 0.1 );
-        backdrop-filter: blur( 1.5px );
-        -webkit-backdrop-filter: blur( 1.5px );
-
-        .chevron-icon:before {
-          opacity: 1;
-        }
-      }
 
       &:before {
         display: none;
@@ -46,7 +68,6 @@
         &:before {
           display: block;
           content: url('/assets/common/chevron.svg');
-          opacity: 0.7;
           position: absolute;
           top: 0;
           right: 0;
@@ -57,10 +78,40 @@
       }
 
       &.prev {
-        left: 0;
+        left: 10px;
+        right: unset;
+
         .chevron-icon:before {
           transform: rotate(180deg);
         }
+      }
+    }
+
+    .slick-slide {
+      padding: 10px;
+
+      .slide-wrapper {
+        background-color: #FFFFFF;
+        padding: 20px;
+        border-radius: 2px;
+        box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.2);
+
+        .slide-content {
+          height: 200px;
+        }
+      }
+    }
+
+    @include mobile {
+      padding: 30px 20px;
+
+      .slider-arrow {
+        display: none;
+      }
+
+      .slick-slider {
+        padding-left: 0;
+        padding-right: 0;
       }
     }
   }
