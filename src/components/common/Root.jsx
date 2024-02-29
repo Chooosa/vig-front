@@ -8,6 +8,7 @@ import { throttle } from '../../utils/throttle';
 import { HeaderContext } from '../../utils/contexts/headerContext';
 import Header from './header';
 import Footer from './Footer';
+import FanIcon from '../../assets/svg/fan.svg'
 // import UpButton from './UpButton';
 
 const TABLET_MAX_WIDTH = 1023;
@@ -73,7 +74,9 @@ function Root({ Component, pageProps }) {
     <>
       <div className="animated-background">
         <ul className="squares">
-          {Array(10).fill(0).map((li, i) => <li key={i} />)}
+          {Array(10).fill(0).map((li, i) => (
+            <li key={i}><FanIcon /></li>
+          ))}
         </ul>
       </div>
 
