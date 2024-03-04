@@ -16,7 +16,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: $white;
+    background-color: $primary;
 
     &.top {
       flex: 0;
@@ -69,6 +69,10 @@
 
     &.logo-link {
       padding-right: 20px;
+
+      svg {
+        color: white;
+      }
     }
 
     @include tablet {
@@ -87,7 +91,7 @@
     transform: scale(0.5); //TODO уменьшить по другому, так как справа отступ большой
 
     .burger-line {
-      background: $primary;
+      background: $white;
       border-radius: 10px;
       height: 7px;
       margin: 7px 0;

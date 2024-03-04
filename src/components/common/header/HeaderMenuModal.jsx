@@ -48,11 +48,11 @@ function HeaderMenuModal({ opened, onClose }) {
     >
       <div className="header-menu-modal" ref={ref}>
         <div className="nav-links-wrapper">
-          <NavLink href="/" className="header-link" active={asPath === '/'} onClick={onClose}>
+          <NavLink href="/" className="header-link" active={asPath === '/'} onClick={onClose} underlined={false}>
             {t('home')}
           </NavLink>
           {links.map(([key, value]) => (
-            <NavLink key={key} href={key} className="header-link" active={asPath.includes(key)} onClick={onClose}>
+            <NavLink key={key} href={key} className="header-link" active={asPath.includes(key)} onClick={onClose} underlined={false}>
               {value}
             </NavLink>
           ))}

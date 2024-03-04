@@ -3,10 +3,12 @@ import Link from 'next/link';
 import PropTypes from 'prop-types';
 import React, { forwardRef } from 'react';
 
-const NavLink = forwardRef(({ href, className, children, active, onClick }, ref) => (
+const NavLink = forwardRef(({ href, className, children, active, onClick, underlined }, ref) => (
   <Link href={href} passHref>
-    <a href={href} className={classnames('nav-link', className, { active })} ref={ref} onClick={onClick}>
-      {children}
+    <a href={href} className={classnames('nav-link', className, { active, underlined })} ref={ref} onClick={onClick}>
+      <span className="link-content">
+        {children}
+      </span>
     </a>
   </Link>
 ));
@@ -19,6 +21,11 @@ NavLink.propTypes = {
   className: PropTypes.string,
   active: PropTypes.bool,
   onClick: PropTypes.func,
+  underlined: PropTypes.bool,
+};
+
+NavLink.defaultProps = {
+  underlined: true,
 };
 
 export default NavLink;
