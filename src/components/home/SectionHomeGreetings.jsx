@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Section from '@/components/common/Section';
 import { useTranslation } from 'next-i18next';
-import RewardImageSrc from '../../../public/assets/home/reward-medal.png';
+import RewardImageSrc from '../../../public/assets/common/reward-medal.png';
 
 function SectionHomeGreetings() {
   const { t } = useTranslation('home');

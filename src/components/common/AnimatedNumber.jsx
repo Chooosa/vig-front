@@ -12,11 +12,11 @@ function AnimatedNumber({ end, from, delay, className }) {
     config: { mass: 1, tension: 20, friction: 10 },
   });
 
-  useEffect(() => {
-    if (!inView) {
-      number.set(0);
-    }
-  }, [inView]);
+  // useEffect(() => {
+  //   if (!inView) {
+  //     number.set(0);
+  //   }
+  // }, [inView]);
 
   return (
     <animated.div ref={ref} className={classnames('ui-animated-number', className)}>

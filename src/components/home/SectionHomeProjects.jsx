@@ -5,12 +5,13 @@ import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import React, { useEffect, useMemo, useState } from 'react';
 import Slider from "react-slick";
+import VentilationImageSrc from '../../../public/assets/common/ventilation.jpg';
 
-import AirportVladikavkazImageSrc from '../../../public/assets/home/projects/airport-vladikavkaz.png';
-import AirportSimpheropolImageSrc from '../../../public/assets/home/projects/airport-simpheropol.png';
-import ZavodKalugaImageSrc from '../../../public/assets/home/projects/kaluga-zavod.png';
-import HospitalPrezidentImageSrc from '../../../public/assets/home/projects/hospital-prezident.png';
-import AquatoriaImageSrc from '../../../public/assets/home/projects/aquatoria.png';
+import AirportVladikavkazImageSrc from '../../../public/assets/projects/airport-vladikavkaz.png';
+import AirportSimpheropolImageSrc from '../../../public/assets/projects/airport-simpheropol.png';
+import ZavodKalugaImageSrc from '../../../public/assets/projects/kaluga-zavod.png';
+import HospitalPrezidentImageSrc from '../../../public/assets/projects/hospital-prezident.png';
+import AquatoriaImageSrc from '../../../public/assets/projects/aquatoria.png';
 
 const Arrow = ({ type = 'next', onClick, style, className }) => (
   <div
@@ -52,8 +53,8 @@ const useSliderSettings = (isMobile) => useMemo(() => ({
 const imgSrcById = {
   vladikavkaz: AirportVladikavkazImageSrc,
   simpheropol: AirportSimpheropolImageSrc,
-  kaluga: ZavodKalugaImageSrc,
-  hospital: HospitalPrezidentImageSrc,
+  'novo-nordinsk': ZavodKalugaImageSrc,
+  'hospital-prezident': HospitalPrezidentImageSrc,
   aquatoria: AquatoriaImageSrc,
 }
 
@@ -72,21 +73,33 @@ function SectionHomeProjects(props) {
 
   return (
     <Section id="projects">
-      {isMounted && (
-        <Slider {...sliderSettings}>
-          {projects.map(({ id, title, desc }) => (
-            <div className="slide-wrapper" key={id}>
-              <Image src={imgSrcById[id]} alt={title} priority />
+      <Image
+        src={VentilationImageSrc}
+        alt="Вентиляция"
+        className="ventilation-image"
+        objectFit="cover"
+        objectPosition="50% 50%"
+        quality={100}
+        layout="fill"
+      />
 
-              <div className="slide-content">
-                <h3 className="slide-title">{title}</h3>
+      <div className="section-container">
+        {isMounted && (
+          <Slider {...sliderSettings}>
+            {projects.map(({ id, title, desc }) => (
+              <div className="slide-wrapper" key={id}>
+                <Image src={imgSrcById[id]} alt={title} priority />
 
-                <p className="slide-description">{desc}</p>
+                <div className="slide-content">
+                  <h3 className="slide-title">{title}</h3>
+
+                  <p className="slide-description">{desc}</p>
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
-      )}
+            ))}
+          </Slider>
+        )}
+      </div>
     </Section>
   );
 }
