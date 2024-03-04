@@ -51,18 +51,15 @@ function Footer() {
 
           <div className="footer-column _contacts">
             <a href={phoneNumberHref} className="phone-link">
-              {/*<PhoneIcon className="phone-icon" />*/}
-              {phoneNumber}
+              <span className="link-content">{phoneNumber}</span>
             </a>
 
             <a href={addressHref} className="address-link" target="_blank" rel="noreferrer noopener nofollow">
-              {/*<PinIcon className="pin-icon" />*/}
               <span className="link-content">{t('address')}</span>
             </a>
 
             <a href={companyMailHref} className="mail-link">
-              {/*<MailIcon className="mail-icon" />*/}
-              {companyMail}
+              <span className="link-content">{companyMail}</span>
             </a>
 
             {/*  TODO add socials links */}

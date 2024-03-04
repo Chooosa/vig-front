@@ -72,13 +72,13 @@ function Root({ Component, pageProps }) {
 
   return (
     <>
-      <div className="animated-background">
-        <ul className="squares">
-          {Array(10).fill(0).map((li, i) => (
-            <li key={i}><FanIcon /></li>
-          ))}
-        </ul>
-      </div>
+      {/*<div className="animated-background">*/}
+      {/*  <ul className="squares">*/}
+      {/*    {Array(10).fill(0).map((li, i) => (*/}
+      {/*      <li key={i}><FanIcon /></li>*/}
+      {/*    ))}*/}
+      {/*  </ul>*/}
+      {/*</div>*/}
 
       {isMounted && (
         <Header

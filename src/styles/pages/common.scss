@@ -31,9 +31,36 @@ a {
   align-items: center;
   justify-content: center;
   transition: color $trans-fast;
+  color: $black;
 
   &.active, &:hover {
     color: $primary;
+  }
+
+  &.underlined {
+    color: $white;
+
+    .link-content {
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        bottom: -5px;
+        background-color: transparent;
+        transition: background-color $trans;
+      }
+    }
+
+    &.active, &:hover {
+      color: $white;
+
+      span::before {
+        background-color: $white;
+      }
+    }
   }
 }
 
