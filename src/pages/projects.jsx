@@ -11,9 +11,10 @@ function Projects() {
 
   return (
     <Page id="projects">
-      {cases.map((_case, i) => (
-        <SectionProjectsItem key={_case.id} {..._case} index={i} />
-      ))}
+      <InDeveloping />
+      {/*{cases.map((_case, i) => (*/}
+      {/*  <SectionProjectsItem key={_case.id} {..._case} index={i} />*/}
+      {/*))}*/}
     </Page>
   );
 }
