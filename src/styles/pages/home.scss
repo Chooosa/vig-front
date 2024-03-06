@@ -70,6 +70,12 @@
       top: 0;
       cursor: pointer;
 
+      &:hover {
+        .chevron-icon {
+          transform: scale(1.2);
+        }
+      }
+
       &:before {
         display: none;
       }
@@ -78,6 +84,7 @@
         position: relative;
         width: 30px;
         height: 30px;
+        transition: transform $trans-fast;
 
         &:before {
           display: block;
