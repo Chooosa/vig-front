@@ -16,7 +16,7 @@ const template = `
 
   <div class="ymap-balloon">
     <div class="search-placemark-title">
-      <div class="search-placemark-title__title"><b>TEKO</b></div>
+      <div class="search-placemark-title__title"><b>ВИГ</b></div>
       <div class="search-placemark-title__subtitle">
         <span class="search-placemark-title__subtitle-item">До 19:00</span>
         <span class="search-placemark-title__subtitle-item">
