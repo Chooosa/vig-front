@@ -4,8 +4,27 @@
   .section {
     padding: 20px;
 
+    &:last-of-type {
+      padding-bottom: 40px;
+    }
+
     &.section-projects-item {
       margin-top: 20px;
+
+      @include tablet-desktop {
+        &.row-reverse {
+          .section-container {
+            .project-card {
+              flex-direction: row-reverse;
+
+              .card-image-wrap {
+                margin-left: 40px;
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
 
       .section-item-title {
         font-size: 22px;
@@ -44,6 +63,8 @@
           }
 
           .description-wrap {
+            flex: 1;
+
             .card-label {
               font-size: 18px;
               line-height: 22px;
@@ -60,19 +81,43 @@
               font-size: 14px;
               line-height: 18px;
             }
-
           }
         }
-      }
 
-      &.row-reverse {
-        .section-container {
+        @include mobile {
           .project-card {
-            flex-direction: row-reverse;
+            flex-direction: column;
+            align-items: center;
 
             .card-image-wrap {
-              margin-left: 40px;
-              margin-right: 0;
+              margin: 0;
+              width: 100%;
+            }
+
+            .description-wrap {
+              margin-top: 20px;
+              width: 100%;
+            }
+          }
+        }
+
+        @include mobile-medium {
+          .project-card {
+            .description-wrap {
+              .card-label {
+                font-size: 16px;
+                line-height: 20px;
+              }
+
+              .card-description {
+                font-size: 14px;
+                line-height: 18px;
+              }
+
+              .card-addreaa {
+                font-size: 12px;
+                line-height: 16px;
+              }
             }
           }
         }

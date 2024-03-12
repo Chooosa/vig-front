@@ -7,53 +7,204 @@
   "cases": [
     {
       "id": "airports",
-      "title": "Аэропортовые комплексы",
+      "title": "Airport complexes",
       "projects": [
         {
           "id": "vladikavkaz",
-          "label": "Новый аэровокзальный комплекс внутренних воздушных линий Международного аэропорта «Владикавказ»",
-          "desc": "Комплекс строительно-монтажных работ внутренних инженерных систем: отопление, индивидуальный тепловой пункт, водоснабжение, канализация, устройство автоматических установок пожаротушения и внутреннего противопожарного водопровода",
+          "label": "New terminal complex of domestic airlines at Vladikavkaz International Airport",
+          "desc": "Complex of construction and installation works of internal engineering systems: heating, individual heating point, water supply, sewerage, installation of automatic fire extinguishing installations and internal fire-fighting water supply",
           "src": "/assets/projects/airport-vladikavkaz.png"
         },
         {
           "id": "simpheropol",
-          "label": "Аэровокзальный комплекс аэропорта «Симферополь»",
-          "desc": "Монтаж систем общеобменной, противодымной вентиляции и пожаротушения, ливневой канализации, выполнение пуско-наладочных работ систем дымоудаления и подпора воздуха, приточно-вытяжных систем вентиляции воздуха",
+          "label": "Air terminal complex of Simferopol airport",
+          "desc": "Installation of general exchange, smoke ventilation and fire extinguishing systems, storm sewerage, commissioning of smoke removal and air pressurization systems, supply and exhaust air ventilation systems",
           "src": "/assets/projects/airport-simpheropol.png"
         },
         {
           "id": "baikal",
-          "label": "Новый аэровокзальный комплекс внутренних воздушных линий Международного аэропорта «Байкал»",
-          "desc": "Комплекс строительно-монтажных работ по внутренним системам (газовое пожаротушение, водоснабжение, канализация, АУПТ, отопление, индивидуальный тепловой пункт, вентиляция, кондиционирование воздуха и холодоцентр), включая поставку оборудования и материалов, с разработкой рабочей документации",
+          "label": "New terminal complex of domestic airlines at the Baikal International Airport",
+          "desc": "A complex of construction and installation works on internal systems (gas fire extinguishing, water supply, sewerage, automatic fire control system, heating, individual heating point, ventilation, air conditioning and refrigeration center), including the supply of equipment and materials, with the development of working documentation",
           "src": "/assets/projects/airport-baikal.png"
         }
       ]
     },
     {
       "id": "medicine",
-      "title": "Медицинские учреждения",
+      "title": "Medical institutions",
       "projects": [
         {
-          "id": "novo-nordinsk",
-          "label": "Завод «Ново-Нордиск» по  производству инсулиновых  препаратов",
-          "address": "г. Калуга",
-          "desc": "Система автоматики и диспетчеризации",
+          "id": "fgau-lrc",
+          "label": "FSAU \"Treatment and Rehabilitation Center\" of the Ministry of Health and Social Development of Russia",
+          "address": "Moscow",
+          "desc": "Supply of equipment and materials, installation, commissioning and commissioning of internal engineering systems of the building (Heating, ventilation and air conditioning, smoke ventilation, ITP, water supply and sanitation, automation and dispatching)",
           "src": "/assets/projects/fgau-lrc.png"
         },
         {
-          "id": "hospital-prezident",
-          "label": "Реабилитационный центр ФГБУ «Клиническая больница» Управления делами президента РФ",
-          "address": "г. Калуга",
-          "desc": "Реабилитационный центр ФГБУ «Клиническая больница» Управления делами президента РФ",
+          "id": "novo-nordinsk",
+          "label": "Novo-Nordisk plant for the production of insulin preparations",
+          "address": "Kaluga",
+          "desc": "Automation and dispatch system",
           "src": "/assets/projects/kaluga-zavod.png"
         },
         {
+          "id": "preodolenie",
+          "label": "Rehabilitation center for the disabled \"Overcoming\"",
+          "address": "Moscow, 8th March st., vl. 6A, building 1",
+          "desc": "Complex of fire protection systems: fire extinguishing, alarm, warning, automation, power electrical equipment, smoke protection, low-current systems",
+          "src": "/assets/projects/preodolenie.png"
+        },
+        {
+          "id": "terapevt-hospital-president",
+          "label": "Therapeutic building of the Central Clinical Hospital of the Administration of the President of the Russian Federation",
+          "address": "Moscow, Marshal Timoshenko St., 15",
+          "desc": "Performing a range of works on the installation of ventilation, air conditioning, smoke ventilation systems",
+          "src": "/assets/projects/terapevt-hospital-prezident.png"
+        },
+        {
           "id": "hospital-prezident",
-          "label": "Реабилитационный центр ФГБУ «Клиническая больница» Управления делами президента РФ",
-          "desc": "Реабилитационный центр ФГБУ «Клиническая больница» Управления делами президента РФ",
+          "label": "Rehabilitation center of the Federal State Budgetary Institution \"Clinical Hospital\" of the Administration of the President of the Russian Federation",
+          "address": "Moscow, Losinoostrovskaya st., 45",
+          "desc": "Rehabilitation center of the Federal State Budgetary Institution \"Clinical Hospital\" of the Administration of the President of the Russian Federation",
           "src": "/assets/projects/hospital-prezident.png"
+        },
+        {
+          "id": "diagnostic-center",
+          "label": "GBUZ \"Diagnostic Center No. 3 of the Moscow Department of Health\"",
+          "address": "Moscow, Sormovskaya street",
+          "desc": "Installation of ventilation, air conditioning, drainage and water supply systems, supply of equipment",
+          "src": "/assets/projects/diagnostic-center.png"
+        },
+        {
+          "id": "diagnostic-center-filial-5",
+          "label": "GBUZ \"DC No. 3 of the Moscow Department of Health \" branch No. 5",
+          "address": "Moscow, Verkhnyaya Khokhlovka street",
+          "desc": "Installation of ventilation and air conditioning systems",
+          "src": "/assets/projects/diagnostic-center-filial-5.png"
+        },
+        {
+          "id": "poliklinika-109",
+          "label": "GBUZ \"City Clinic No. 109 of the Moscow Department of Health\"",
+          "address": "Moscow, Shosseynaya st.",
+          "desc": "Supply, installation and commissioning of automation of the hot water backup system, testing of ventilation and heating systems, installation and connection of radiators",
+          "src": "/assets/projects/poliklinika-109.png"
+        }
+      ]
+    },
+    {
+      "id": "residential",
+      "title": "Residential complexes",
+      "projects": [
+        {
+          "id": "aquatoria",
+          "label": "Residential complex \"Aquatoria\"",
+          "address": "Leningradskoe highway, 69",
+          "desc": "Performing a range of works on the installation of ventilation, air conditioning, smoke ventilation systems",
+          "src": "/assets/projects/aquatoria.png"
+        },
+        {
+          "id": "multi-apartment",
+          "label": "Apartment residential building with underground parking",
+          "desc": "Performance of a complex of construction, installation, commissioning works and commissioning of an individual heating point",
+          "src": "/assets/projects/multi-apartment.png"
+        }
+      ]
+    },
+    {
+      "id": "government-facilities",
+      "title": "Government facilities",
+      "projects": [
+        {
+          "id": "central-museum-gpw",
+          "label": "Central Museum of the Great Patriotic War 1941-1945",
+          "address": "Moscow",
+          "desc": "Supply of equipment and materials, installation, commissioning and commissioning of internal engineering systems of the building: heating, ventilation and air conditioning, smoke ventilation, ITP, water supply and sanitation, automation and dispatching",
+          "src": "/assets/projects/central-museum-gpw.png"
+        },
+        {
+          "id": "human-rights-apparatus",
+          "label": "Office of the Commissioner for Human Rights of the Russian Federation",
+          "address": "Moscow",
+          "desc": "Supply of equipment, installation work of general exchange and smoke ventilation systems",
+          "src": "/assets/projects/human-rights-apparatus.png"
+        },
+        {
+          "id": "school-1190",
+          "label": "Moscow State Budgetary Educational Institution \"School No. 1190\"",
+          "address": "Moscow",
+          "desc": "Heating system installation work",
+          "src": "/assets/projects/school-1190.png"
+        },
+        {
+          "id": "old-square",
+          "label": "Administrative building, part of the Old Square building complex",
+          "address": "Moscow",
+          "desc": "Supply of materials and equipment for general exchange and smoke ventilation, installation and commissioning of air handling units",
+          "src": "/assets/projects/old-square.png"
+        },
+        {
+          "id": "victory-museum",
+          "label": "Branch of the Victory Museum \"Museum of G.K. Zhukov\"",
+          "address": "Zhukov",
+          "desc": "Plumbing work on installation of ventilation, air conditioning systems, commissioning of equipment",
+          "src": "/assets/projects/victory-museum.png"
+        },
+        {
+          "id": "major-renovation",
+          "label": "Major renovation of the building",
+          "address": "Moscow, Lyalin lane, 10/14 building 1",
+          "desc": "Supply of materials, installation and commissioning of a complex of engineering systems",
+          "src": "/assets/projects/major-renovation.png"
+        }
+      ]
+    },
+    {
+      "id": "food-production",
+      "title": "Food production",
+      "projects": [
+        {
+          "id": "uniliver",
+          "label": "Factory for the production of ketchup, mayonnaise and dry food mixtures Unilever Rus'",
+          "address": "Tula",
+          "desc": "Supply of equipment and materials, installation, commissioning, commissioning of internal engineering systems of the building: heating, ventilation and air conditioning, smoke ventilation, water supply and sanitation, aspiration, automation and dispatching",
+          "src": "/assets/projects/uniliver.png"
+        },
+        {
+          "id": "miratorg",
+          "label": "Miratorg Poultry Slaughtering and Processing Factory",
+          "address": "Bryansk region",
+          "desc": "Supply of equipment and materials, installation, commissioning and commissioning of internal engineering systems of the building: heating, ventilation and air conditioning",
+          "src": "/assets/projects/miratorg.png"
+        },
+        {
+          "id": "agricultural-miratorg",
+          "label": "Agricultural complex for growing, slaughtering and processing pigs Miratorg",
+          "address": "Kursk region",
+          "desc": "Installation of general and smoke ventilation, sewerage and water supply systems",
+          "src": "/assets/projects/agricultural-miratorg.png"
+        }
+      ]
+    },
+    {
+      "id": "administrative-office",
+      "title": "Administrative and office buildings",
+      "projects": [
+        {
+          "id": "administrative-office-semenovskaya",
+          "label": "Factory for the production of ketchup, mayonnaise and dry food mixtures Unilever Rus'",
+          "address": "Moscow, B. Semenovskaya st., 32, building 1",
+          "desc": "Complex of fire protection systems: fire extinguishing, alarm, warning, automation. Power electrical equipment. Internal electric lighting. Ventilation, refrigeration, heating, water supply.",
+          "src": "/assets/projects/administrative-office-semenovskaya.png"
+        },
+        {
+          "id": "administrative-office-skladocnaya",
+          "label": "Administrative and office building with a built-in parking lot of 22,500 sq.m.",
+          "address": "Moscow, Skladochnaya st., 3, building 1",
+          "desc": "Complex of fire protection systems: fire extinguishing, alarm, warning, automation. Power electrical equipment. Internal electric lighting. Ventilation, refrigeration, heating, water supply.",
+          "src": "/assets/projects/administrative-office-skladocnaya.png"
         }
       ]
     }
   ]
 }
+

@@ -1,4 +1,3 @@
-import InDeveloping from '@/components/common/InDeveloping';
 import SectionProjectsItem from '@/components/prjects/SectionProjectsItem';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -11,10 +10,9 @@ function Projects() {
 
   return (
     <Page id="projects">
-      <InDeveloping />
-      {/*{cases.map((_case, i) => (*/}
-      {/*  <SectionProjectsItem key={_case.id} {..._case} index={i} />*/}
-      {/*))}*/}
+      {cases.map((_case, i) => (
+        <SectionProjectsItem key={_case.id} {..._case} index={i} />
+      ))}
     </Page>
   );
 }
