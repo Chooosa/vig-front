@@ -135,12 +135,12 @@
       "desc": "The terminal complex of the airport \"Simferopol\""
     },
     {
-      "id": "kaluga",
+      "id": "novo-nordinsk",
       "title": "Novo-Nordisk Plant",
       "desc": "Novo-Nordisk plant for the production of insulin preparations"
     },
     {
-      "id": "hospital",
+      "id": "hospital-prezident",
       "title": "Rehabilitation center of the Federal State Budgetary Institution",
       "desc": "Rehabilitation center of the Federal State Budgetary Institution \"Clinical Hospital\" of the Administration of the President of the Russian Federation"
     },
@@ -149,5 +149,6 @@
       "title": "Residential complex \"Aquatoria\"",
       "desc": "Residential complex \"Aquatoria\""
     }
-  ]
+  ],
+  "end-section-desc": "Welcome to&nbsp;the world of&nbsp;innovation and opportunity! <br />Our company is&nbsp;your reliable partner in&nbsp;achieving your goals. <br />Trust our experience and professionalism, and together we&nbsp;will create the future you dreamed&nbsp;of. <br />Let&rsquo;s make dreams come true together!"
 }

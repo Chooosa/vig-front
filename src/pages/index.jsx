@@ -1,3 +1,4 @@
+import SectionHomeEnd from '@/components/home/SectionHomeEnd';
 import SectionHomeGreetings from '@/components/home/SectionHomeGreetings';
 import React from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -6,11 +7,9 @@ import SectionHomeNumbers from '@/components/home/SectionHomeNumbers';
 import SectionHomeGoals from '@/components/home/SectionHomeGoals';
 import SectionHomeProjects from '@/components/home/SectionHomeProjects';
 import SectionHomeServices from '@/components/home/SectionHomeServices';
-import SectionHomeTyping from '@/components/home/SectionHomeTyping';
 import SectionHomeProjectsMap from '@/components/home/SectionHomeProjectsMap';
 
 function Home() {
-
   return (
     <Page id="home">
       <SectionHomeGreetings />
@@ -20,6 +19,7 @@ function Home() {
       <SectionHomeNumbers />
       <SectionHomeServices />
       <SectionHomeProjectsMap />
+      <SectionHomeEnd />
     </Page>
   );
 }
