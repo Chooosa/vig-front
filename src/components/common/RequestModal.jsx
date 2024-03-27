@@ -46,7 +46,7 @@ function RequestModalContent({ onClose }) {
   const handleSubmit = useCallback((values, formikBag) => {
     setLoading(true);
 
-    axios.get(`api/sendMessage`, { params: values })
+    axios.post(`api/sendMessage`, values)
       .then((data) => {
         setLoading(false);
         setStep('success')
