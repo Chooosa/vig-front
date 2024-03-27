@@ -11,10 +11,8 @@ import { InputField } from '@/components/common/ui/input';
 import { PhoneInputField } from '@/components/common/ui/phone-input';
 import DomHolder from '@/components/common/utils/DomHolder';
 import SuccessIcon from '../../assets/svg/success.svg';
+import FileInputField from './ui/file-input/FileInputField';
 
-const telegramUrl = 'https://api.telegram.org';
-const botToken = 'bot6705998776:AAHEXqv_5OtJCeRmoBxyeGrN4l2K5-Yq658';
-const chatId = '-1002071392866';
 
 const initialErrors = {
   name: 'Required',
@@ -43,28 +41,13 @@ function RequestModalContent({ onClose }) {
   const [step, setStep] = useState('form');
   const resetTimerIdRef = useRef();
 
-  const handleSubmit = useCallback(({ name, email, phone, message }, formikBag) => {
+  //TODO добавить согласие на обработку данных
+
+  const handleSubmit = useCallback((values, formikBag) => {
     setLoading(true);
-    let fields = [
-      `<b>Имя</b>: ${name}`,
-      `<b>E-mail</b>: ${email} `,
-      `<b>Номер телефона</b>: +${phone} `,
-      `<b>Сообщение</b>: ${message} `,
-    ]
-    let text = '';
 
-    fields.forEach(field => {
-      text += field + '\n'
-    });
-
-    axios.get(`${telegramUrl}/${botToken}/sendMessage`, {
-      params: {
-        chat_id: chatId,
-        parse_mode: 'html',
-        text,
-      },
-    })
-      .then(() => {
+    axios.get(`api/sendMessage`, { params: values })
+      .then((data) => {
         setLoading(false);
         setStep('success')
 

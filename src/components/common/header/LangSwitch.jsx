@@ -9,7 +9,7 @@ function LangSwitch({ pageId }) {
   const { locale, locales, pathname, asPath, query } = router;
 
   const handleSwitchLanguageClick = useCallback((e) => {
-    const { lang } = e.target.dataset;
+    const { lang } = e.currentTarget.dataset;
     router.push({ pathname, query }, asPath, { locale: lang, shallow: true, scroll: false });
   }, []);
 
