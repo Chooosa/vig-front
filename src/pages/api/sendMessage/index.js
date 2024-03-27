@@ -6,8 +6,8 @@ const prodChatId = '-1002071392866';
 const testChatId = '-1002019706064';
 const chatId = process.env.NODE_ENV === 'production' ? prodChatId : testChatId;
 
-export default function GET(req, res) {
-  const { name, email, phone, message } = req.query;
+export default function POST(req, res) {
+  const { name, email, phone, message } = req.body;
 
   let fields = [
     `<b>Имя</b>: ${name}`,
